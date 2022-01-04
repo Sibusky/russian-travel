@@ -1,6 +1,8 @@
 @import url(./normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/link/link.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/__container/page__container.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
@@ -10,7 +12,36 @@
 
 
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 77vw;
+  border: red solid 2px;
+}
+
+.lead__title {
+
+}
+
+.lead__text {
+
+}
+
+.lead__pic {
+  width: 100%
+}
+
+.lead__pic-text {
+
+}
 
 
 

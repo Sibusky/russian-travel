@@ -27,6 +27,18 @@
 
 
 
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  max-width: calc(1280px - 2*48px);
+  border: red solid 2px;
+}
 
+
+.photo-grid__image {
+  max-width: 100%; 
+  object-fit: cover;
+}
 
 

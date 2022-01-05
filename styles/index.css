@@ -15,22 +15,14 @@
 @import url(../blocks/lead/__text/lead__text.css);
 @import url(../blocks/lead/__pic/lead__pic.css);
 @import url(../blocks/lead/__pic-tex/lead__pic-text.css);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__container/intro__container.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__list-item-text/intro__list-item-text.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent_bold.css);
 
 
 

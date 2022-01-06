@@ -27,7 +27,16 @@
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
 
-
+.photo-grid__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+    list-style-type: none;
+    /*max-width: 1184px;*/
+    margin: 0;
+    padding: 0;
+    border: red solid 2px;
+  }
 
 
 

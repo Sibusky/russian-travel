@@ -1,8 +1,8 @@
 .intro {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    border: red solid 2px;
-    min-width: 984px;
-    margin: 0 0 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: red dashed 2px;
+  max-width: 984px;
+  margin: 0 auto 92px;
   }

@@ -4,4 +4,5 @@
     align-items: flex-start;
     border: red solid 2px;
     max-width: 690px;
+    margin: 0;
   }

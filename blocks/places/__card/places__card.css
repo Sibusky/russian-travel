@@ -1,0 +1,14 @@
+.places__card {
+    display: grid;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 80px;  
+    grid-template-columns: calc((460/984)*100%) calc((484/984)*100%);
+    column-gap: calc((40/984)*100%);
+    row-gap: 48px;
+    width: 100%;
+  }
+  
+  .places__card:last-of-type {
+    padding-bottom: 0;
+  }

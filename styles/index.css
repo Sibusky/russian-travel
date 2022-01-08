@@ -33,7 +33,6 @@
 @import url(../blocks/places/__website/places__website.css);
 @import url(../blocks/places/__url-heading/places__url-heading.css);
 @import url(../blocks/places/__link/places__link.css);
-@import url(../blocks/places/__link-text/places__link-text.css);
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__paragraphs/places__paragraphs.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
@@ -46,14 +45,3 @@
 @import url(../blocks/footer/__list-item/footer__list-item.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-
-
-
-
-
-
-
-
-
-/*<!--Установить Favicon-->*/
-/*Удалить лишний класс в ссылке*/

@@ -9,3 +9,9 @@
     color: #FFFFFF;
     margin: 0 0 33px;
   }
+
+  @media screen and (max-width: 760px) {
+    .intro__text {
+      font-size: 16px;
+    }
+  }

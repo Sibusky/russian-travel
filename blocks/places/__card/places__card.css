@@ -12,3 +12,26 @@
   .places__card:last-of-type {
     padding-bottom: 0;
   }
+
+  @media screen and (max-width: 1279px) {
+    .places__card {
+    grid-template-columns: calc((440/928)*100%) calc((456/928)*100%);
+    column-gap: calc((32/928)*100%);
+    }
+  }
+  
+  @media screen and (max-width: 1020px) {
+    .places__card {
+      grid-template-columns: calc((340/720)*100%) calc((352/720)*100%);
+      column-gap: calc((28/720)*100%);
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    .places__card {
+      justify-items: center;
+      grid-template-columns: 100%;
+      padding: 0 0 50px;
+      row-gap: 32px;
+    }
+  }

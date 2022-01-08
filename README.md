@@ -19,3 +19,4 @@
 
 ### Ссылка на GitHub Pages:
 
+https://sibusky.github.io/russian-travel/index.html

@@ -1,4 +1,6 @@
 .photo-grid__item {
     padding: 0;
     margin: 0;
+    line-height: 0; /* I've spent so much time to figure out what the hell was wrong with spaces 
+    between rows in this Grid. It is a list so it has line-height to be zeroed */
 }

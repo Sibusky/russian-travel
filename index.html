@@ -17,10 +17,10 @@
         <nav>
           <ul class="header__lang-links">
             <li class="header__lang-link">
-              <a class="link header__lang-link header__lang-link_language_ru" href="#">Ru</a>
+              <a class="link header__lang-link-text header__lang-link_active" href="#">Ru</a>
             </li>
             <li class="header__lang-link">
-              <a class="link header__lang-link header__lang-link_language_en" href="#">En</a>
+              <a class="link header__lang-link-text" href="#">En</a>
             </li>
           </ul>
         </nav>
@@ -32,9 +32,11 @@
           <p class="lead__text">
             Настоящая страна не в выпусках новостей, а здесь
           </p>
-          <img class="lead__pic" alt="Стилизованная карта от Пскова до Улан-Удэ на фоне боковушки 
-            в плацкарте" src="./images/lead-polka.jpg" />
-          <p class="lead__pic-text">ваша полка — верхняя</p>
+          <figure class="lead__pic-container">
+            <img class="lead__pic" src="./images/lead-polka.jpg"
+              alt="Стилизованная карта от Пскова до Улан-Удэ на фоне фотографии боковушки в плацкарте">
+            <figcaption class="lead__pic-text">ваша полка — верхняя</figcaption>
+          </figure>
         </section>
 
         <section class="intro">
@@ -55,38 +57,38 @@
             <ul class="intro__list">
               <li class="intro__list-item">
                 <p class="intro__list-item-text">
-                  <span class="intro__list-item-text intro__list-item-text_span-accent_bold">Часовых поясов</span>
+                  <span class="intro__span-accent">Часовых поясов</span>
                   11
                 </p>
               </li>
               <li class="intro__list-item">
                 <p class="intro__list-item-text">
-                  <span class="intro__list-item-text intro__list-item-text_span-accent_bold">Объектов природного наследия ЮНЕСКО</span>
+                  <span class="intro__span-accent">Объектов природного наследия ЮНЕСКО</span>
                   12
                 </p>
               </li>
               <li class="intro__list-item">
                 <p class="intro__list-item-text">
-                  <span class="intro__list-item-text intro__list-item-text_span-accent_bold">Объектов культурного наследия ЮНЕСКО</span>
+                  <span class="intro__span-accent">Объектов культурного наследия ЮНЕСКО</span>
                   16
                 </p>
               </li>
               <li class="intro__list-item">
                 <p class="intro__list-item-text">
-                  <span class="intro__list-item-text intro__list-item-text_span-accent_bold">Природных заповедников</span>
+                  <span class="intro__span-accent">Природных заповедников</span>
                   105
                 </p>
               </li>
               <li class="intro__list-item">
                 <p class="intro__list-item-text">
-                  <span class="intro__list-item-text intro__list-item-text_span-accent_bold">Аэропортов</span> 241
+                  <span class="intro__span-accent">Аэропортов</span> 241
                 </p>
               </li>
             </ul>
           </div>
         </section>
 
-        <div class="photo-grid">
+        <section class="photo-grid">
           <ul class="photo-grid__list">
             <li class="photo-grid__item">
               <img class="photo-grid__image" alt="Вид из окна поезда" src="./images/photo-grid-train.jpg" />
@@ -127,12 +129,12 @@
               <img class="photo-grid__image" alt="Горный хребет Ергаки" src="./images/photo-grid-ergaki.jpg" />
             </li>
           </ul>
-        </div>
+        </section>
 
         <section class="places">
           <ul class="places__list">
             <li class="places__card">
-              <h3 class="places__title">Куршская коса</h3>
+              <h2 class="places__title">Куршская коса</h2>
               <div class="places__website">
                 <p class="places__url-heading">Url</p>
                 <a class="link places__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
@@ -156,7 +158,7 @@
               </div>
             </li>
             <li class="places__card">
-              <h3 class="places__title">Кольский</h3>
+              <h2 class="places__title">Кольский</h2>
               <div class="places__website">
                 <p class="places__url-heading">Url</p>
                 <a class="link places__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
@@ -181,7 +183,7 @@
               </div>
             </li>
             <li class="places__card">
-              <h3 class="places__title">Алтай</h3>
+              <h2 class="places__title">Алтай</h2>
               <div class="places__website">
                 <p class="places__url-heading">Url</p>
                 <a class="link places__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
@@ -206,7 +208,7 @@
               </div>
             </li>
             <li class="places__card">
-              <h3 class="places__title">Зимний Байкал</h3>
+              <h2 class="places__title">Зимний Байкал</h2>
               <div class="places__website">
                 <p class="places__url-heading">Url</p>
                 <a class="link places__link" href="https://vk.com/baikalmile"
@@ -230,7 +232,7 @@
               </div>
             </li>
             <li class="places__card">
-              <h3 class="places__title">Карелия</h3>
+              <h2 class="places__title">Карелия</h2>
               <div class="places__website">
                 <p class="places__url-heading">Url</p>
                 <a class="link places__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
@@ -256,7 +258,7 @@
 
         <section class="cover">
           <a class="cover__container" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-            <h3 class="cover__title">До Байкала «на собаках»</h3>
+            <h2 class="cover__title">До Байкала «на собаках»</h2>
             <p class="cover__text">
               По мотивам учебной темы о Транссибе — путешествие от столицы до
               Байкала на электричках.
@@ -266,12 +268,24 @@
       </main>
 
       <footer class="footer">
-        <nav class="footer__list">
-          <a class="link footer__list-item" href="https://yandex.ru/maps" target="_blank">Карты</a>
-          <a class="link footer__list-item" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-          <a class="link footer__list-item" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-          <a class="link footer__list-item" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-          <a class="link footer__list-item" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+        <nav class="footer__nav">
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a class="link footer__list-item-text" href="https://yandex.ru/maps" target="_blank">Карты</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="link footer__list-item-text" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="link footer__list-item-text" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="link footer__list-item-text" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+            </li>
+            <li class="footer__list-item">
+              <a class="link footer__list-item-text" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+            </li>
+          </ul>
         </nav>
         <p class="footer__copyright">&copy; 2022. Алексей Смирнов</p>
       </footer>

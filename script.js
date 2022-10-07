@@ -17,18 +17,26 @@ function changeURL() {
 function changeLanguage() {
     let hash = window.location.hash;
     hash = hash.substring(1);
+
+    // Устанавливаю русский язык, если допущена ошибка в названии языка в URL
     if (!langArr.includes(hash)) {
-        // Устанавливаю русский язык, если допущена ошибка в названии языка в URL
         location.href = window.location.pathname + '#' + 'ru';
-    }
+        langSelector[0].classList.add('header__lang-link-text_active');
+    };
+
+    // Делаю активной "кнопку" выбранного языка
     langSelector.forEach(element => {
         if (element.textContent.toLowerCase() === hash) {
             element.classList.add('header__lang-link-text_active')
         };
     });
+
+    // Перевожу текст, сопоставляя названия ключей перевода с объектами DOM
     for (let key in translationObj) {
         let element = document.querySelector('.' + key)
-        if (element) {
+        if (!hash) {
+            element.textContent = translationObj[key]['ru'];
+        } else if (element) {
             element.textContent = translationObj[key][hash];
         };
     }

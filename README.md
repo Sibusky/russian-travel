@@ -18,7 +18,7 @@ After learning some JS I’ve added a switch language function. Check it out on 
 - fonts import,
 - adaptive layout,
 - JavaScript basics,
-- work with a design project made by Yandex using Figma ([link] (https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)).
+- work with a design project made by Yandex using Figma ([link](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)).
 
 ### GitHub Pages link:
 
@@ -44,7 +44,7 @@ https://sibusky.github.io/russian-travel/index.html
 - добавление шрифтов,
 - адаптивная и "резиновая" вёрстка сайтов,
 - JavaScript основы,
-- Работа с макетом, свёрстанным в редакторе Figma ([ссылка на проект] (https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)).
+- Работа с макетом, свёрстанным в редакторе Figma ([ссылка на проект](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)).
 
 ### Ссылка на GitHub Pages:
 
